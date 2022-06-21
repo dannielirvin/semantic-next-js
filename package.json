@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "release": "commit-and-tag-version --release-as major"
+    "release": "commit-and-tag-version --release-as minor"
   },
   "dependencies": {
     "next": "12.0.7",
@@ -18,5 +18,5 @@
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7"
   },
-  "version": "2.0.0"
+  "version": "1.2.0"
 }
