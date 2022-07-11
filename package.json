@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "commit-and-tag-version --release-as minor"
   },
   "dependencies": {
     "next": "12.0.7",
@@ -13,7 +14,9 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "commit-and-tag-version": "^10.0.1",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7"
-  }
+  },
+  "version": "1.2.0"
 }
